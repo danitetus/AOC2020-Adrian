@@ -73,7 +73,7 @@ function countValidPasport(array: Ipasport[]): number {
         }
 
         const heightValue = parseInt(passport.hgt)
-        if (heightValue >= 150 && heightValue <= 192) {
+        if (heightValue >= 150 && heightValue <= 193) {
             if (passport.hgt.slice(3) === 'cm') {
                 validationCount++;
             }
